@@ -123,8 +123,15 @@ RK-IU/
 ├── evaluation/
 │   ├── metrics.py
 │   └── evaluation.py
+├── configs/
+│   ├── config_0.json
+│   ├── config_1.json
+│   └── config_2.json
+├── notebooks/
+│   └── hybrid_model_demo.ipynb
 ├── results/
 │   ├── figures/
 │   └── outputs/
-└── README.md
+└── README
+
 ```
