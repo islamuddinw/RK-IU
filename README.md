@@ -86,12 +86,13 @@ Model performance is evaluated using:
 | Proposed Hybrid CNN–Transformer | **36.10** | **0.9670** |
 
 ## Repository Structure
+## Repository Structure
 Hybrid-CNN-Transformer-Angiography/
 │
 ├── data/
-│ ├── train
-│ ├── validation
-│ └── test
+│ ├── train/
+│ ├── validation/
+│ └── test/
 │
 ├── models/
 │ ├── cnn_encoder.py
@@ -107,8 +108,8 @@ Hybrid-CNN-Transformer-Angiography/
 │ └── evaluation.py
 │
 ├── results/
-│ ├── figures
-│ └── outputs
+│ ├── figures/
+│ └── outputs/
 │
 └── README.md
 
