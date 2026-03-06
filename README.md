@@ -106,32 +106,38 @@ RK-IU/
 │  └─ hybrid_model.py
 
 ## Repository Structure
+## Repository Structure
 
-```
-RK-IU/
-├── data/
-│   ├── train/
-│   ├── validation/
-│   └── test/
-├── models/
-│   ├── cnn_encoder.py
-│   ├── transformer_module.py
-│   └── hybrid_model.py
-├── training/
-│   ├── train.py
-│   └── loss_functions.py
-├── evaluation/
-│   ├── metrics.py
-│   └── evaluation.py
-├── configs/
-│   ├── config_0.json
-│   ├── config_1.json
-│   └── config_2.json
-├── notebooks/
-│   └── hybrid_model_demo.ipynb
-├── results/
-│   ├── figures/
-│   └── outputs/
-└── README
+- **data/**
+  - train/
+  - validation/
+  - test/
+
+- **models/**
+  - cnn_encoder.py
+  - transformer_module.py
+  - hybrid_model.py
+
+- **training/**
+  - train.py
+  - loss_functions.py
+
+- **evaluation/**
+  - metrics.py
+  - evaluation.py
+
+- **configs/**
+  - config_0.json
+  - config_1.json
+  - config_2.json
+
+- **notebooks/**
+  - hybrid_model_demo.ipynb
+
+- **results/**
+  - figures/
+  - outputs/
+
+- **README.md**
 
 ```
