@@ -86,33 +86,34 @@ Model performance is evaluated using:
 | Proposed Hybrid CNN–Transformer | **36.10** | **0.9670** |
 
 ## Repository Structure
-## Repository Structure
+
+```
 Hybrid-CNN-Transformer-Angiography/
 │
 ├── data/
-│ ├── train/
-│ ├── validation/
-│ └── test/
+│   ├── train/
+│   ├── validation/
+│   └── test/
 │
 ├── models/
-│ ├── cnn_encoder.py
-│ ├── transformer_module.py
-│ └── hybrid_model.py
+│   ├── cnn_encoder.py
+│   ├── transformer_module.py
+│   └── hybrid_model.py
 │
 ├── training/
-│ ├── train.py
-│ └── loss_functions.py
+│   ├── train.py
+│   └── loss_functions.py
 │
 ├── evaluation/
-│ ├── metrics.py
-│ └── evaluation.py
+│   ├── metrics.py
+│   └── evaluation.py
 │
 ├── results/
-│ ├── figures/
-│ └── outputs/
+│   ├── figures/
+│   └── outputs/
 │
 └── README.md
-
+```
 ## Installation
 
 Clone the repository:
