@@ -86,3 +86,39 @@ Model performance is evaluated using:
 | Proposed Hybrid CNN–Transformer | **36.10** | **0.9670** |
 
 ## Repository Structure
+Hybrid-CNN-Transformer-Angiography/
+│
+├── data/
+│ ├── train
+│ ├── validation
+│ └── test
+│
+├── models/
+│ ├── cnn_encoder.py
+│ ├── transformer_module.py
+│ └── hybrid_model.py
+│
+├── training/
+│ ├── train.py
+│ └── loss_functions.py
+│
+├── evaluation/
+│ ├── metrics.py
+│ └── evaluation.py
+│
+├── results/
+│ ├── figures
+│ └── outputs
+│
+└── README.md
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/hybrid-cnn-transformer-angiography.git
+**## Citation**
+Khan R., Abdullah, Uddin I., Khan S.
+Hybrid CNN–Transformer Framework for Structure-Preserving Enhancement of Coronary Angiography Images.
+ICCK Transactions on Applied Intelligence and Cybernetics.
